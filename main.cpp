@@ -98,7 +98,7 @@ int main() {
 	
 	cout << "\n ---  Select a Game  --- \n" << endl;
 	
-  	cout <<"1 - Mario Maths Runner \n2 - English with Sonic \n3 - Kirby's World Ma\t\n\nSelect one : ";
+  	cout <<"1 - Mario Maths Runner \n2 - English with Sonic \n3 - Kirby's World Map\t\n\nSelect one : ";
     cin >> game;
   while(true){  
     if(game == 1 ){
@@ -111,7 +111,7 @@ int main() {
       
     }
     else if(game == 3 ){
-      	gname = "Kirby's World Ma";
+      	gname = "Kirby's World Map";
       	break;
     }
     else{
